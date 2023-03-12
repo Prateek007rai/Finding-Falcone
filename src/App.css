@@ -1,38 +1,71 @@
 .App {
   text-align: center;
+  font-family: comic sans MS;
+}
+header{
+  text-align: right;
+  margin: 20px;
+  margin-right: 6vw;
+}
+header:hover{
+  color: grey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-weight: 550;
+  font-size: 3rem;
+}
+h3{
+  color: grey;
+}
+h5{
+  font-size: 120%;
+  color: rgb(44, 140, 73);
+}
+p{
+  font-size: 120%;
+  color: rgb(84, 83, 83);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.planets-div{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 20px;
+}
+
+.each-planet-div{
+  margin: 20px 2rem 6rem 2rem;
+}
+
+#destination{
+  font-size: 110%;
+  font-weight: 550;
+  color: rgb(84, 83, 83);
+}
+
+#vehicle{
+  font-size: 75%;
+  font-weight: 550;
+  color: rgb(84, 83, 83);
+}
+
+button{
+  padding: 2px 8px;
+  font-family: comic sans MS;
+  background-color: white;
+  /* box-shadow: 2px 2px 1px 0px; */
+}
+
+button:hover{
+  background-color: black;
+  border: 1px solid white;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+span{
+  font-size: 110%;
+  color: black;
+  list-style: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span:hover{
+  color: grey;
 }
